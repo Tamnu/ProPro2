@@ -16,5 +16,25 @@ namespace Uppgifter
         {
             InitializeComponent();
         }
+
+        private void BtnStart_Click(object sender, EventArgs e)
+        {
+            int storlek = int.Parse(tbxStorlek.Text);
+            FontStyle stil = FontStyle.Regular;
+            if (cbxFet.Checked)
+            {
+                stil = stil | FontStyle.Bold;
+            }
+            if (cbxKursiv.Checked)
+            {
+                stil = stil | FontStyle.Italic;
+            }
+            if (cbxUnder.Checked)
+            {
+                stil = stil | FontStyle.Underline;
+            }
+            Font font = new Font(tbxTeckensnitt.Text, storlek, stil);
+            tbxFörhandsgranskning.Font = font;
+        }
     }
 }
