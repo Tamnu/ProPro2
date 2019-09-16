@@ -5,6 +5,8 @@ VisualStudioVersion = 16.0.29215.179
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Uppgifter", "Uppgifter\Uppgifter.csproj", "{94E81D2B-2697-44DF-A6B0-A529F70B7136}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Övningar", "Övningar\Övningar.csproj", "{2F0018B9-91AF-4E73-BF0F-016F84A37B1D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{94E81D2B-2697-44DF-A6B0-A529F70B7136}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{94E81D2B-2697-44DF-A6B0-A529F70B7136}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{94E81D2B-2697-44DF-A6B0-A529F70B7136}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2F0018B9-91AF-4E73-BF0F-016F84A37B1D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2F0018B9-91AF-4E73-BF0F-016F84A37B1D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2F0018B9-91AF-4E73-BF0F-016F84A37B1D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2F0018B9-91AF-4E73-BF0F-016F84A37B1D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
