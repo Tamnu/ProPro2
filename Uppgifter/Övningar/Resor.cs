@@ -8,11 +8,28 @@ namespace Övningar
 {
     class Resor
     {
-        public string kund = "";
-        public string destination = "";
-        public int dagar = 0;
+        string kund;
+        string destination;
+        int dagar;
 
 
+
+
+
+
+
+
+        public Resor (string k,string d, int a)
+        {
+            kund = k;
+            destination = d;
+            dagar = a;
+        }
+
+        public override string ToString()
+        {
+            return kund;
+        }
 
     }
 }

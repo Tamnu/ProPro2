@@ -37,6 +37,8 @@
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
+            this.btnBoka = new System.Windows.Forms.Button();
+            this.btnSök = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // lbxVisa
@@ -111,11 +113,32 @@
             this.label4.TabIndex = 8;
             this.label4.Text = "Sök";
             // 
+            // btnBoka
+            // 
+            this.btnBoka.Location = new System.Drawing.Point(484, 141);
+            this.btnBoka.Name = "btnBoka";
+            this.btnBoka.Size = new System.Drawing.Size(75, 23);
+            this.btnBoka.TabIndex = 9;
+            this.btnBoka.Text = "Boka";
+            this.btnBoka.UseVisualStyleBackColor = true;
+            this.btnBoka.Click += new System.EventHandler(this.BtnBoka_Click);
+            // 
+            // btnSök
+            // 
+            this.btnSök.Location = new System.Drawing.Point(484, 207);
+            this.btnSök.Name = "btnSök";
+            this.btnSök.Size = new System.Drawing.Size(75, 23);
+            this.btnSök.TabIndex = 10;
+            this.btnSök.Text = "Sök";
+            this.btnSök.UseVisualStyleBackColor = true;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.btnSök);
+            this.Controls.Add(this.btnBoka);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
@@ -127,6 +150,7 @@
             this.Controls.Add(this.lbxVisa);
             this.Name = "Form1";
             this.Text = "Form1";
+            this.Load += new System.EventHandler(this.Form1_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -143,6 +167,8 @@
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.Button btnBoka;
+        private System.Windows.Forms.Button btnSök;
     }
 }
 
