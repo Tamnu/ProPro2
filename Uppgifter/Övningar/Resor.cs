@@ -12,24 +12,26 @@ namespace Övningar
         string destination;
         int dagar;
 
-
-
-
-
-
-
-
-        public Resor (string k,string d, int a)
+        public Resor(string x, string y, int z)
         {
-            kund = k;
-            destination = d;
-            dagar = a;
+            kund = x;
+            destination = y;
+            dagar = z;
         }
+        public string Kund
 
+        {
+
+            get { return kund; }
+        }
         public override string ToString()
+
         {
-            return kund;
+
+            return destination + ": " + dagar + " dagar";
         }
 
-    }
+
+
+        }
 }

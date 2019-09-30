@@ -29,16 +29,31 @@ namespace Övningar
             string kund = tbxKund.Text;
             string destination = tbxDestination.Text;
             int dagar = int.Parse(tbxDagar.Text);
-            Resor nyResa = new Resor(kund, destination, dagar);
-            resa[Antalbokningar] = nyResa;
-            Antalbokningar++;
+            Resor resan = new Resor(kund, destination, dagar);
+            resa[Antalbokningar++] = resan;
 
-            MessageBox.Show("Du har bokat", "OOO", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
+            MessageBox.Show("Resan bokad", "Bekräftelse",MessageBoxButtons.OK,MessageBoxIcon.Exclamation);
+            lbxVisa.Items.Add(resan);
 
-            lbxVisa.Items.Add(nyResa);
-            tbxDagar.Text = "";
-            tbxDestination.Text = "";
-            tbxKund.Text = "";
+            
+
+        }
+
+        private void BtnSök_Click(object sender, EventArgs e)
+        {
+            lbxVisa.Items.Clear();
+            string sök = tbxSök.Text;
+            
+
+
+            for(int i = 0; i < Antalbokningar; i++)
+            {
+                if(resa[i].Kund == sök)
+                {
+                    lbxVisa.Items.Add(resa[i]);
+                }
+
+            }
         }
     }
 }

@@ -131,6 +131,7 @@
             this.btnSök.TabIndex = 10;
             this.btnSök.Text = "Sök";
             this.btnSök.UseVisualStyleBackColor = true;
+            this.btnSök.Click += new System.EventHandler(this.BtnSök_Click);
             // 
             // Form1
             // 
