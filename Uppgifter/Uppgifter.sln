@@ -7,6 +7,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Uppgifter", "Uppgifter\Uppg
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Övningar", "Övningar\Övningar.csproj", "{2F0018B9-91AF-4E73-BF0F-016F84A37B1D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tavling", "Tavling\Tavling.csproj", "{57FF2407-E3EB-405C-B153-B8FA9E23D7B8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Träning", "Träning\Träning.csproj", "{620952F6-B8C3-4F6D-A59C-8E1E134E5224}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +25,14 @@ Global
 		{2F0018B9-91AF-4E73-BF0F-016F84A37B1D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2F0018B9-91AF-4E73-BF0F-016F84A37B1D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2F0018B9-91AF-4E73-BF0F-016F84A37B1D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{57FF2407-E3EB-405C-B153-B8FA9E23D7B8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{57FF2407-E3EB-405C-B153-B8FA9E23D7B8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{57FF2407-E3EB-405C-B153-B8FA9E23D7B8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{57FF2407-E3EB-405C-B153-B8FA9E23D7B8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{620952F6-B8C3-4F6D-A59C-8E1E134E5224}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{620952F6-B8C3-4F6D-A59C-8E1E134E5224}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{620952F6-B8C3-4F6D-A59C-8E1E134E5224}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{620952F6-B8C3-4F6D-A59C-8E1E134E5224}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
