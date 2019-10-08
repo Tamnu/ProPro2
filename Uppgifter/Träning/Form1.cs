@@ -13,6 +13,8 @@ namespace Träning
     public partial class Form1 : Form
     {
         List<Logg> logglist = new List<Logg>();
+        string bil = "bil";
+        string mc = "mc";
         public Form1()
         {
             InitializeComponent();
@@ -43,6 +45,11 @@ namespace Träning
         private void BtnNågra_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+            
         }
     }
 }
